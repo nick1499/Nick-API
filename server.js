@@ -42,7 +42,7 @@ con.query('INSERT INTO aliens (alien_name) VALUES ("'+ alien_name1 +'")' , funct
     
     if (err) throw err
         console.log("record created "+ alien_name1)
-        res.send("record created")
+        res.send("record created "+ alien_name1)
     })
 
 })
